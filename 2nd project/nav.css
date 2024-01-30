@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    height: 50px;
+    background-color: blue;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+p{
+    margin: 20px;
+    color: white;
+}
