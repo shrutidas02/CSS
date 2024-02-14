@@ -64,10 +64,9 @@ h3{
 .button{
     margin-left: 60px;
 }
-@media (max-width:500px){
+@media (min-width:300px) and (max-width:500px){
     .main{
-       flex-direction: column-reverse;
-       
+       flex-direction: column-reverse;    
     
     }
     .main div{
@@ -92,26 +91,30 @@ h3{
     }
     .a{
         font-size: 15px;
-        width: 150px;
+        width: 150px; 
+        transform: translateX(30px);
     }
     .e{
+        margin-top: 10px;
         font-size: 15px;
         width: 150px;
+        margin-left: 20px;
     }
     .b{
         font-size: 15px;
         width: 100px;
+        
     }
     .c{
         display: flex;
-        padding-left: -100px;
+        padding-left: 50px;
         
         
     }
     .button{
-        padding-left: -140px;
+        /* padding-left: -140px; */
         flex-wrap: wrap;
-        
+               
     }
 
 }
