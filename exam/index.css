@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+}
+main{
+    margin-left: 35%;
+    height: 1200px;
+    width: 30%;
+    background-color: aliceblue;
+    /* background-repeat: no-repeat; */
+    /* background-image: url("./laptop-computer-with-books--pen-and-yellow-legal-pad-92259124-5c673ef9c9e77c00014762dc.jpg"); */
+}  
+.img1{
+    height: 200px;
+    width: 455px;
+} 
+.img2{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: auto;
+    margin-left: 25%;
+    margin-top: -100px;
+}
+.name{
+    /* margin-left: 25%; */
+    text-align: center;
+}
+.p{
+    font-size: 10px;
+    margin-top: 7px;
+}
+.icon{
+    font-size: 30px;
+    margin-left: 27%;
+    margin-top: 20px;
+}
+.icon i{
+    padding-left: 30px;
+    color: rgb(37, 44, 164);
+}
+.div1{
+   display: flex;
+}
+h6{
+    padding-left: 27px;
+    font-size: 16px;
+}
+.div2 p{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-align: left;
+}
+.icon2{
+    font-size: 30px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.icon2 i{
+    padding-left: 20px;
+    color: blueviolet;
+}
+h3{
+    margin-left: 30%;
+    margin-top: 10px;
+}
+.div3{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    margin-top: 15px;
+}
+.date input{
+     width: 100px;
+     padding: 5px;
+     border-radius: 4px;
+     border-width: 1px;
+}
+.Hour input{
+    width: 100px;
+    padding: 5px;
+    border-radius: 4px;
+     border-width: 1px;
+}
+.div4{
+    height: 50px;
+    width: 200px;
+    background-color: blueviolet;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+.div4 p{
+    padding-left: 20px;
+}
+.div4 i{
+    padding-left: 10px;
+    
+}
+.div5{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.buy1{
+    padding-top: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 7px;
+    padding: 2px;
+    color: aliceblue;
+}
+.buy2{
+    padding: 2px;
+        margin-left: 20px;
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+        border-radius: 7px;
+        color: aliceblue;
+}
+.div5 i{
+    margin-top: 20px;
+    color: black;
+}
+.service{
+    margin-left: 45%;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.last{
+    font-size: 40px;
+    margin-left: 45%;
+    margin-top: 20px;
+    
+}
+.last i{
+    color: rgb(24, 24, 172);
+}
+.icon1 p{
+    font-size: 10px;
+    margin-left: -15px;
+}
+.icon2 p{
+    font-size: 10px;
+}
+.icon3 p{
+    font-size: 10px;
+}
+@media (max-width:500px){
+    main{
+        width: 80vh;
+        margin-left: -4%;
+    }
+    /* .name{
+        margin-left: -130px;
+    } */
+    .img1{
+        width:80vh;
+    }
+    .img2{
+        margin-left: 30%;
+    }
+    .icon{
+        margin-left: 120px;
+    }
+    .icon2{
+        margin-left: 120px;
+    }
+    h3{
+        margin-left: 150px;
+    }
+    .div4{
+        margin-left: 140px;
+    }
+    .service{
+        margin-left: 210px;
+    }
+    .div2 p{
+        font-size: 20px;
+    }
+}
